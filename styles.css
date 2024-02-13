@@ -144,4 +144,22 @@ header {
   background-color: ;
 }
 
+/* Style for sections containing images */
+.main-section {
+  margin-bottom: 20px; /* Add some space between sections */
+}
+
+/* Style for the image inside sections */
+.main-section img {
+  display: block; /* Make sure images are displayed as block elements */
+  width: 150px; /* Set a fixed width for all images */
+  height: auto; /* Maintain aspect ratio */
+  margin-top: 10px; /* Add some space between header and image */
+}
+
+/* Style for headers */
+.main-section header {
+  font-size: 24px; /* Set font size for headers */
+  margin-bottom: 10px; /* Add some space below headers */
+}
 
